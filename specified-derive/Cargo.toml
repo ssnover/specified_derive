@@ -1,5 +1,5 @@
 [package]
-name = "specified_derive"
+name = "specified-derive"
 version = "0.1.0"
 edition = "2021"
 

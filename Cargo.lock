@@ -21,7 +21,14 @@ dependencies = [
 ]
 
 [[package]]
-name = "specified_derive"
+name = "specified"
+version = "0.1.0"
+dependencies = [
+ "specified-derive",
+]
+
+[[package]]
+name = "specified-derive"
 version = "0.1.0"
 dependencies = [
  "proc-macro2",
@@ -33,7 +40,7 @@ dependencies = [
 name = "specified_test"
 version = "0.1.0"
 dependencies = [
- "specified_derive",
+ "specified",
 ]
 
 [[package]]

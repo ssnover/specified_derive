@@ -1,10 +1,6 @@
-#[macro_use]
-extern crate specified_derive;
+use specified::Specified;
 
-trait Specified {
-    fn specified() -> String;
-}
-
+#[allow(dead_code)]
 #[derive(Specified)]
 struct Point {
     x: f64,
